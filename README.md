@@ -36,9 +36,11 @@ npx json-server db.json
 ```
 Feito isto, a rota `http://localhost:3000` estará disponível para adquirir as informações da API. Neste exemplo, as rotas são:
 ```
-http://localhost:3000/posts
-http://localhost:3000/comments
-http://localhost:3000/profile
+http://localhost:3000/posts - todos os posts
+http://localhost:3000/posts/{id} - post pelo seu ID
+http://localhost:3000/comments - todos os comments
+http://localhost:3000/comments/{id} - comment pelo seu ID
+http://localhost:3000/profile - profile
 ```
 
 Para mais informações, você pode [consultar o README do JSON Server](https://github.com/typicode/json-server/tree/main)
