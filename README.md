@@ -32,7 +32,7 @@ Feito isto, vamos configurar nosso JSON Server:
 ```
 * Inicie o JSON Server:
 ```
-npx json-server db.json
+npx json-server --watch db.json
 ```
 Feito isto, a rota `http://localhost:3000` estará disponível para adquirir as informações da API. Neste exemplo, as rotas são:
 ```
