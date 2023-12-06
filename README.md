@@ -30,7 +30,7 @@ Feito isto, vamos configurar nosso JSON Server:
   "profile": { "name": "typicode" }
 }
 ```
-* Inicie o JSON Server
+* Inicie o JSON Server:
 ```
 npx json-server db.json
 ```
@@ -43,4 +43,6 @@ http://localhost:3000/comments/{id} - comment pelo seu ID
 http://localhost:3000/profile - profile
 ```
 
-Para mais informações, você pode [consultar o README do JSON Server](https://github.com/typicode/json-server/tree/main)
+Para mais informações, você pode [consultar o README do JSON Server](https://github.com/typicode/json-server#readme).
+
+Para encerrar o JSON Server, basta apertar `CTRL-C` no terminal e selecionar a opção Y.
